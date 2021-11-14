@@ -1,10 +1,11 @@
 header {
-    background-color: #244751;
-    color: #E8FDFF;
+    background-color: #a8d1dd;
+    color: #858888;
 }
 
 body {
     background-color: whitesmoke;
+    ;
 }
 
 main {
@@ -12,16 +13,16 @@ main {
     padding: 16px;
 }
 
-.finstagram-post{
+.wanderlust-post{
     margin-bottom: 48px;
 }
 
-.finstagram-post .user-info img{
+.wanderlust-post .user-info img{
     border-radius: 50%;
 }
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 a.photo{
