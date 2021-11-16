@@ -28,7 +28,7 @@ input[type=text], input[type=password], input[type=email] {
 header {
   overflow: hidden;
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 header > .login-info {
@@ -66,7 +66,7 @@ main {
 
 .user-info {
   display: flex;
-  align-items: baseline;
+  align-items: center;
 }
 
 .user-info img {
@@ -88,6 +88,7 @@ main {
 .photo img {
   display: block;
   width: 100%;
+  border-radius: 5px;
 }
 
 .actions {

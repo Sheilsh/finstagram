@@ -1,6 +1,8 @@
 header {
-    background-color: #a8d1dd;
-    color: #858888;
+    background: url(/images/headerimg.jpeg) no-repeat center;
+    background-size: cover;
+    color: #a8acac;
+    height: 150px;
 }
 
 body {
@@ -8,16 +10,17 @@ body {
     ;
 }
 
+
 main {
     background-color: white;
     padding: 16px;
 }
 
-.wanderlust-post{
+.travellog-post{
     margin-bottom: 48px;
 }
 
-.wanderlust-post .user-info img{
+.travellog-post .user-info img{
     border-radius: 50%;
 }
 
@@ -33,6 +36,4 @@ a.photo:hover{
     padding: 10px;
 }
 
-/* img {
-    border-radius: 2%;
-} */
+
