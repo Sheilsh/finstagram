@@ -1,7 +1,3 @@
-# get '/' do
-#     File.read(File.join('app/views', 'index.html'))
-# end
-
 def humanized_time_ago(time_ago_in_minutes)
     if time_ago_in_minutes >= 60
         "#{time_ago_in_minutes / 60} hours ago"
@@ -11,7 +7,7 @@ def humanized_time_ago(time_ago_in_minutes)
 end
 
 get '/' do
-    finstagram_post_atlas = {
+    @finstagram_post_atlas = {
         username: "atlas_1",
         avatar_url: "/images/icon1.jpeg",
         photo_url: "/images/post1-santorini.jpeg",
@@ -25,7 +21,7 @@ get '/' do
 
     }
 
-    finstagram_post_lover = {
+    @finstagram_post_lover = {
         username: "travel_lover",
         avatar_url: "/images/icon2.jpeg",
         photo_url: "/images/post1_bali.jpeg",
@@ -39,9 +35,9 @@ get '/' do
 
     }
 
-    finstagram_post_vacations = {
+    @finstagram_post_vacations = {
         username: "best_vacations",
-        avatar_url: "/images/icon3.jpg",
+        avatar_url: "/images/icon3.jpeg", 
         photo_url: "/images/thailandpost3.jpeg",
         humanized_time_ago: humanized_time_ago(190),
         like_count: 0,
@@ -53,7 +49,8 @@ get '/' do
 
     }
 
-    [finstagram_post_atlas, finstagram_post_lover, finstagram_post_vacations].to_s
+    @finstagram_posts = [@finstagram_post_atlas, @finstagram_post_lover, @finstagram_post_vacations]
     
-end
+    erb(:index)
 
+end
