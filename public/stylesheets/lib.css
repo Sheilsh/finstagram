@@ -115,6 +115,7 @@ main {
 
 .form-group {
   margin-bottom: 1em;
+  text-align: center;
 }
 
 .new-comment input[type="text"] {
