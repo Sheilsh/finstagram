@@ -9,10 +9,21 @@
     </head>
     <body> 
         <header>
-            <h1 class= "appname">Travelgram</h1>
-        </header>    
+            <h1 class= "appname">
+                <a href="/">Travelgram</a>
+            </h1>
+            <div class="login-info">
+                <% if current_user %>
+                    <%= current_user.username %>
+                    <a href="/logout">Logout</a>
+                <% else %>
+                    <a href="/login">Login</a>
+                    <a href="/signup">Signup</a>
+                <% end %>
+            </div>
+        </header>
         <main role="main">
-            <%= yield %>
-        </main>
+        <%= yield %>
+      </main>
     </body>
 </html>
