@@ -21,11 +21,17 @@ main {
     padding: 16px;
 }
 
-.travellog-post{
+.finstagram-post{
     margin-bottom: 48px;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    padding: 10px;
 }
 
-.travellog-post .user-info img{
+/* Added : bkgroundcolor, borderadius, and padding (compare to original) */
+
+
+.finstagram-post .user-info img{
     border-radius: 50%;
 }
 
