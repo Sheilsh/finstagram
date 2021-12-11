@@ -47,4 +47,20 @@ a.photo:hover{
     padding: 10px;
 }
 
+.footer-homepage {
+    text-align: center;
+    padding: 2%;
+}
 
+@media screen 
+  and (max-width: 360px) 
+  and (max-height: 640px) {
+
+    main {
+        width: 80%;
+    }
+
+    div.col {
+        width: 80%
+    }
+}

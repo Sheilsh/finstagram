@@ -4,8 +4,6 @@ class FinstagramPost < ActiveRecord::Base
     has_many :comments
     has_many :likes
 
-    #data relationships ^
-
     validates :photo_url, :user, presence: true
 
     def humanized_time_ago
