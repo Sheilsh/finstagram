@@ -9,7 +9,7 @@ users = [
 finstagram_posts = [
   { photo_url: "/images/post1-santorini.jpeg"},
   { photo_url: "/images/post1_bali.jpeg"},
-  { photo_url: "public/images/thailandpost3.jpeg"},
+  { photo_url: "/images/thailandpost3.jpeg"},
   { photo_url: "https://www.hotelcabanastulum.com/wp-content/uploads/2017/09/The-powder-white-sand-at-BeTulum.jpg"},
   { photo_url: "https://media.giphy.com/media/5bd7bfL2WfVAwAuRHG/giphy.gif"}
 ]
