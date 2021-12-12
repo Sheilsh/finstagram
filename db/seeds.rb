@@ -3,7 +3,7 @@ users = [
   { username: "travel_lover", avatar_url: "/images/icon2.jpeg", email: "travel_l@gmail.com", password: "abcd" },
   { username: "best_vacations", avatar_url: "/images/icon3.jpeg", email: "vacation_b@gmail.com", password: "abcd" }
   { username: "hello1", avatar_url: "https://www.seekpng.com/png/detail/920-9209963_hand-painted-original-cute-avatar-png-and-psd.png", email: "hello@hotmail.com", password: "12345"}
-  { username: "sheila", avatar_url: "	https://previews.123rf.com/images/amosyagina/amosyagina1805/amosyagina180500032/102632429-cute-avatar-icon-with-girl.jpg", email: "sheila@hotmail.com", password: "hello"}
+  { username: "sheila", avatar_url: "https://previews.123rf.com/images/amosyagina/amosyagina1805/amosyagina180500032/102632429-cute-avatar-icon-with-girl.jpg", email: "sheila@hotmail.com", password: "hello"}
 ]
 
 finstagram_posts = [
