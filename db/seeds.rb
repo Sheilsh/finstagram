@@ -7,11 +7,11 @@ users = [
 ]
 
 finstagram_posts = [
-  { photo_url: "/images/icon1.jpeg"},
-  { photo_url: "/images/icon2.jpeg"},
-  { photo_url: "/images/icon3.jpeg"},
-  { photo_url: "https://www.seekpng.com/png/detail/920-9209963_hand-painted-original-cute-avatar-png-and-psd.png"},
-  { photo_url: "https://previews.123rf.com/images/amosyagina/amosyagina1805/amosyagina180500032/102632429-cute-avatar-icon-with-girl.jpg"}
+  { photo_url: "/images/post1-santorini.jpeg"},
+  { photo_url: "/images/post1_bali.jpeg"},
+  { photo_url: "public/images/thailandpost3.jpeg"},
+  { photo_url: "https://www.hotelcabanastulum.com/wp-content/uploads/2017/09/The-powder-white-sand-at-BeTulum.jpg"},
+  { photo_url: "https://media.giphy.com/media/5bd7bfL2WfVAwAuRHG/giphy.gif"}
 ]
 
 puts "Seeding database..."
